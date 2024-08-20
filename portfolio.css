@@ -1,0 +1,185 @@
+#portfolio .navbar{
+    background: #113448;
+    height: 5rem;
+}
+
+
+/* #portfolio{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+} */
+
+.portfolio .container{
+    padding-top: 10rem;
+	padding-bottom: 7.5rem;
+    
+}
+.portfolio-phone-img{
+    margin-bottom: 1rem;
+}
+.portfolio-phone-img img{
+    width: 45%;
+}
+.phone-price{
+    display: inline-block;
+    color: #B12704;
+    margin-top: 1rem;
+    /* text-align: center; */
+    /* transform: translateX(-2%); */
+}
+.phone-review-list{
+    display: flex;
+    list-style: none;
+}
+
+.phone-review-list{
+    padding: 0;
+}
+.phone-review-list-item{
+    margin-right: 1rem;
+}
+.phone-review-list-item h6{
+    /* color: white; */
+}
+.phone-review-list-item:last-child{
+    margin-right: none;
+}
+.phone-review-list-item h6{
+    font-size: 18px;
+    margin-top: .5rem;
+}
+
+.phone-pros-cons{
+    margin: 2rem 0 1rem 0;
+}
+
+.portfolio-phone-details{
+    padding: 2rem;
+    /* background: #C4D6D3; */
+
+    border-radius: 10px;
+    /* box-shadow: 0 0  10px rgba(0, 0,0, 0.2); ; */
+
+}
+/* .phone-price-and-buy-link{
+    margin-bottom: 2.6rem;
+} */
+.specs{
+    margin-top: 2rem;
+}
+.phone-pros,
+.phone-cons{
+
+    /* background: #F0FCF7; */
+    /* border: solid 1px #13aa87; */
+    /* box-shadow: 0 0  10px rgba(0, 0, 0, 0.2); */
+    /* border-radius: 10px; */
+}
+.phone-pros:hover,
+.phone-cons:hover{
+    /* box-shadow: 0 0  10px rgba(0, 0, 0, 0.2); */
+    transition: all .5s;
+}
+.phone-pros,
+.phone-cons{
+    padding: 1rem .5rem;
+}
+
+.pros-list{
+    padding: 0 14px;
+}
+.pros-list-item p{
+    text-transform: capitalize;
+    /* font-weight: 400; */
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif !important;
+}
+.phone-short-review p{
+    font-family: "Montserrat", sans-serif !important;
+
+}
+table{
+   
+    font-family: "Montserrat", sans-serif !important;
+}
+tr{
+    transition: transform .2s;
+}
+.table-heading{
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+  
+}
+tr:hover{
+    /* background-color: #EEFBFF; */
+    /* background-color: #DCEFEC;  */
+    
+}
+tr td{
+    font-size: .9rem;
+}
+.video-review{
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.2); 
+    /* margin-top: 2rem; */
+}
+.phone-short-review p{
+    margin: 1rem 0rem 2rem 0rem;
+}
+.cons-heading{
+    color: #E73f3f !important;
+}
+.pros-heading{
+    color: #13aa87 !important;
+}
+.buy-link img{
+    width: 100%;
+    /* margin-right: 15px; */
+    margin-left: -10px;
+}
+
+@media(max-width: 500px)
+{
+    .phone-image-and-specifications{
+        min-width: 100%;
+    }
+    .portfolio-phone-img img{
+        width: 30%;
+    }
+
+    .phone-review-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .phone-review-list-item{
+        margin-right: 4rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .phone-review-in-detail{
+        min-width: 100%;
+    }
+
+    .phone-name{
+        font-size: 1.1rem;
+    }
+    .phone-price{
+        margin: 0;
+    }
+    .phone-price-and-buy-link{
+        margin-top: 2rem;
+    }
+    .buy-link img{
+        width: 60%;
+    }
+    .phone-review-list{
+        flex-wrap: wrap;
+    }
+
+    .phone-short-review{
+        padding-right: 2rem;
+    }
+    iframe{
+        height: 300px;
+    }
+}
